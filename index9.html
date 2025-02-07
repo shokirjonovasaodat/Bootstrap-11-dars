@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-12">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                Learn more
+            </button>
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4>Login</h4><span class="close" data-dismiss="modal">&times;</span>
+                        </div> 
+                        <div class="modal-body">
+                            <h4>Use a local account to log in.</h4>
+                            <h4 class="b1">Use another service to log in.</h4>
+                            <br>
+                            <label for="email">Email</label>
+                            <input type="email" id="email">
+                            <br>
+                            <br>
+                            <label for="password">Password</label>
+                            <input type="password" id="password">
+                            <br>
+                            <br>
+                            <input type="checkbox" id="text">    <label for="text">Remember me?</label>
+                            <br>
+                            <br>
+                            <button type="button" class="btn">Log in</button>
+                            <br>
+                            <br>
+                            <h4 class="text-primary">register as anew user</h4>
+                            <p class="d">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Dolorum asperiores autem recusandae eligendi ducimus, saepe magni,
+                                dolore aliquam debitis
+                                natus quia labore facere veniam sint quam eum, modi ab deleniti.
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-light text-dark" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script> 
+</body>
+</html>
